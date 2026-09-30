@@ -1,1 +1,2 @@
 Usuario=agostina
+model name	: AMD Ryzen 7 2700 Eight-Core Processor
