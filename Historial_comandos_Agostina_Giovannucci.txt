@@ -1,0 +1,55 @@
+    1  ssh-keygen
+    2  cat $HOME/.ssh/*.pub
+    3  mkdir -p $HOME/repogit
+    4  cd $HOME/repogit
+    5  git clone
+    6  sudo apt install git
+    7  git --version
+    8  sudo apt install git
+    9  git --version
+   10  git clone git@github.com:LaLangos/TP_AySO.git
+   11  cd TP_AySO
+   12  pwd
+   13  ls -l
+   14  cat/etc/os-release
+   15  ls -l/etc/os-release
+   16  pwd
+   17  cat /etc/os-release
+   18  man grep
+   19  grep HOME_URL/etc/os-release
+   20  pwd
+   21  grep home_url/etc/or-release
+   22  grep -i Home_url /etc/os-release
+   23  whoami
+   24  echo "Usuario=$(whoami)"> datos_usuario.txt
+   25  git add
+   26  ls -la
+   27  git add datos_usuario.txt
+   28  git status
+   29  git config --global usser.name "LaLangos"
+   30  git config --global user.email "giovannucciagostina@gmail.com"
+   31  git committ -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+   32  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+   33  git status
+   34  git push
+   35  grep "model name" /proc/cpuinfo | head -n1 >>datos_usuario.txt
+   36  git add datos_usuario.txt
+   37  git commit -m "feat: Añadiendo informacion de CPU"
+   38  cat <<EOF >> readme.md
+Alumno: Agostina Giovannucci
+Division:311 Turno: Noche EOF
+
+
+   39  cat <<EOF >> readme.md Alumno: Agostina Giovannucci  Division:311 Turno: Noche EOF
+
+
+   40  cat <<EOF >> readme.md Alumno: Agostina Giovannucci  Division:311 Turno: Noche EOF
+   41  cat <<EOF >> readme.md Alumno: Agostina Giovannucci Divicion: 311 Turno: Noche EOF
+   42  EOF
+   43  echo "Alumno: Agostina Giovannucci" >> readme.md
+   44  echo "Division: 311 Turno: Noche" >> readme.md
+   45  git add readme.md datos_usuario.txt
+   46  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+   47  git push
+   48  history -a
+   49  history > Historial_comandos_Agostina_Giovannucci.txt
